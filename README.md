@@ -1,6 +1,6 @@
 ## BootCamp SQL Assignment
 
-<img src= "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcodingsight.com%2Fstructured-query-language-importance-of-learning-sql%2F&psig=AOvVaw1cX8z_ZK_myWCeacJai31t&ust=1621408938283000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKCV4KrZ0vACFQAAAAAdAAAAABAD">
+<img src= "https://codingsight.com/wp-content/uploads/2018/07/image1.png">
 
 ## Overview
 
