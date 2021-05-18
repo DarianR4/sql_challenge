@@ -1,10 +1,10 @@
 CREATE TABLE employees (
     emp_no int  NOT NULL ,
-    emp_title_id int  NOT NULL ,
+    emp_title_id varchar(10)  NOT NULL ,
     birth_date date  NOT NULL ,
-    first_name varchar(200)  NOT NULL ,
-    last_name varchar(200)  NOT NULL ,
-    sex varchar(200)   NOT NULL ,
+    first_name varchar(30)  NOT NULL ,
+    last_name varchar(30)  NOT NULL ,
+    sex varchar(4)   NOT NULL ,
     hire_date date  NOT NULL ,
     PRIMARY KEY (
         emp_no
@@ -13,30 +13,30 @@ CREATE TABLE employees (
 
 CREATE TABLE salaries (
     emp_no int  NOT NULL ,
-    salary money  NOT NULL ,
+    salary int  NOT NULL ,
     PRIMARY KEY (
         emp_no
     )
 );
 
 CREATE TABLE titles (
-    title_id int  NOT NULL ,
-    title varchar(200)  NOT NULL 
+    title_id varchar(50)  NOT NULL ,
+    title varchar(50) NOT NULL 
 );
 
 CREATE TABLE departments (
-    dept_no int  NOT NULL ,
-    dept_name varchar(200)  NOT NULL 
+    dept_no varchar(50)  NOT NULL ,
+    dept_name varchar(50)  NOT NULL 
 );
 
 CREATE TABLE dept_emp (
-    emp_no int  NOT NULL ,
-    dept_no int  NOT NULL 
+    emp_no varchar(50)  NOT NULL ,
+    dept_no varchar(50)  NOT NULL 
 );
 
-CREATE TABLE debt_manager (
-    dept_no int  NOT NULL ,
-    emp_no int  NOT NULL 
+CREATE TABLE dept_manager (
+    dept_no varchar(50)  NOT NULL ,
+    emp_no varchar(50)  NOT NULL 
 );
 
 CREATE INDEX idx_employees_sex
