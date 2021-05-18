@@ -4,7 +4,7 @@ CREATE TABLE employees (
     birth_date date  NOT NULL ,
     first_name varchar(200)  NOT NULL ,
     last_name varchar(200)  NOT NULL ,
-    sex string  NOT NULL ,
+    sex varchar(200)   NOT NULL ,
     hire_date date  NOT NULL ,
     PRIMARY KEY (
         emp_no
